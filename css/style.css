@@ -1,0 +1,140 @@
+@media screen and (max-width:650px){
+    form .input{
+        display: list-item;
+    }
+    .container{
+        margin: auto;
+        max-width: 60%;
+    }
+}
+
+html{
+    background:linear-gradient(rgb(127, 231, 127) 7%,white);
+    min-height:100%;
+
+}
+.titulo{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+}
+form{
+    margin:5% auto;
+    text-align:center
+}
+form label{
+    display: block;
+    margin:15px 0;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+form .input{
+    display:inline-block;
+    margin-left: 15px;
+}
+input{
+    padding: 8px 6px;
+    border-radius: 5px;
+    border:none;
+    text-align: center;
+    -webkit-appearance: none;
+    margin: 0;
+}
+/*Comando para tirar setas do "number" de aumenta e diminuir*/
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+#table_cat,#table_loc{
+    vertical-align: top;
+    display: inline-table;
+    font-family: 'Roboto Mono', monospace;
+    width: 13%;
+    padding: 2px 0;
+    background: rgb(204, 102, 190);
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+    margin: auto;
+}
+#table{
+    font-family: 'Roboto Mono', monospace;
+    width: 60%;
+    padding: 2px 0;
+    background: rgb(127, 231, 127);
+    margin: 0 auto 40px auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+}
+
+.btns{
+   align-items: center;
+}
+
+#button-env:hover,#button-con:hover{
+    background-color: rgb(100, 161, 110);
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#bot-exc{
+    background-color: rgb(207, 104, 104);
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#bot-edit{
+    background-color: rgb(70, 80, 170);
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#table-sec{
+    margin-left:60px;
+    visibility:hidden;
+}
+#table tr,#table_cat tr,#table_loc tr{
+    line-height: 34px;
+    text-align: center;
+    
+}
+#table td,#table td,#table_loc{
+    padding: 0 5px;
+    vertical-align: middle;
+}
+#table .ult-col{
+    position: relative;
+    right:5.5em;
+}
+#but-show,#button-con,#button-env{
+    margin: 40px 5px 20px 0;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+}
+#cab,#cab_sec {
+    font-weight: bold;
+}
+#alerta{
+    position: relative;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+footer{
+    background: chocolate;
+}
